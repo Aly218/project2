@@ -1,0 +1,70 @@
+#main-navbar {
+  background-color: purple;
+  overflow: hidden;
+}
+#navbar-container {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+#main-navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+#main-navbar ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
+}
+#main-navbar ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+#main-navbar ul li a:hover {
+  background-color: #000;
+}
+#onpage {
+  background-color: pink;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#main {
+	float: left;
+	width: 100%;
+	margin: 0 20px;
+  padding: 15px;
+	outline: 2px dashed pink;
+	 }
+   
+
+#main-fluid {
+	float: left;
+	width: 90%;
+	margin: 0 5%;
+	outline: 2px dashed #0053ae;
+	 }
+   
+#column1-fluid {
+  clear: both;
+	float: left;
+	width: 60%;
+	margin: 0 5%;
+	outline: 2px dashed #0053ae;
+	 }
+#column2-fluid {
+	float: left;
+	width: 25%;
+	margin: 0 5% 0 0;
+	outline: 2px dashed #dd0009;
+}
