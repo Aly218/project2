@@ -1,5 +1,11 @@
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #FAF9F6;
+}
+
 #main-navbar {
-  background-color: purple;
+  background-color: #4D774E;
   overflow: hidden;
 }
 #navbar-container {
@@ -28,10 +34,10 @@
   text-decoration: none;
 }
 #main-navbar ul li a:hover {
-  background-color: #000;
+  background-color: #9DC88D;
 }
 #onpage {
-  background-color: pink;
+  background-color: #4D774E;
 }
 
 #wrapper {
@@ -40,12 +46,13 @@
 }
 
 #main {
+  background-color: #FAF9F6;
 	float: left;
 	width: 100%;
 	margin: 0 20px;
   padding: 15px;
 	outline: 2px dashed pink;
-	 }
+}
    
 
 #main-fluid {
