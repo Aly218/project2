@@ -1,7 +1,22 @@
+/*CSS for all pages*/
 body {
   background: #DADED4;
 }
 
+h1, h2, h3, p{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  font-size: 18px;
+}
+
+h3{
+  margin: 10px 0;
+}
+
+
+/*navigation bar for all three pages*/
 #main-navbar {
   font-family: 'Lilita One', cursive;
   font-size: 20px;
@@ -43,6 +58,7 @@ body {
   background-color: #9DC88D;
 }
 
+/*Fixed page layout for page 1 and page 2*/
 #wrapper {
 	width: 960px;
 	margin: 0 auto;
@@ -59,8 +75,53 @@ body {
   padding: 15px;
 	outline: 2px dashed pink;
 }
-   
 
+
+/*CSS for page 2*/
+#main-page2 {
+  background-color: #FAF9F6;
+	width: 100%;
+	margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 60px 30px;
+	outline: 2px dashed pink;
+  width: 816px;
+  height: 1056px;
+  font-size: 11px;
+  line-height: 1;
+}
+
+#profile-picture{
+  width: 10em;
+  margin-top: 5%;
+  margin-left: 42px;
+}
+
+.centered{
+  text-align: center;
+}
+
+.border{
+  border-top: 1px solid black;
+  padding-top: 10px;
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+.clear{
+  clear: both;
+}
+
+   
+/*Fluid page layout for page 3 and other CSS*/
 #main-fluid {
 	float: left;
 	width: 90%;
