@@ -72,7 +72,6 @@ h3{
   height: 200px;
   margin: 0;
   margin-top: 5%;
-	outline: 2px dashed pink;
   background-image: url('../images/background.png');
 }
 
@@ -89,7 +88,6 @@ h3{
 	float: left;
 	width: 480px;
 	margin: 48px 28.8px 0 48px;
-	outline: 2px dashed pink;
 }
 
 .p1{
@@ -111,7 +109,7 @@ h3{
   float: left;
   width: 10em;
   padding: 25px;
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
 .p4{
@@ -127,7 +125,6 @@ h3{
 	width: 288px;
   margin: 48px 48px 48px 28.8px;
   padding: 2%;
-	outline: 2px dashed pink;
 }
 
 #container-4{
@@ -136,7 +133,6 @@ h3{
 	width: 825.6px;
   margin: 48px;
   padding: 2%;
-	outline: 2px dashed pink;
 }
 
 #container-5{
@@ -145,7 +141,6 @@ h3{
 	width: 364.8px;
   margin: 0 28.8px 0 48px;
   padding: 2%;
-	outline: 2px dashed pink;
 }
 
 #container-6{
@@ -154,7 +149,6 @@ h3{
 	width: 364.8px;
   margin: 0 48px 0 28.8px;
   padding: 2%;
-	outline: 2px dashed pink;
 }
 
 .video{
@@ -167,7 +161,6 @@ h3{
 	margin: 0;
 	margin-left: 220px;
 	margin-right: 20px;
-	outline: 2px dashed #0053ae;
 	display: inline;
 }
 
@@ -185,7 +178,6 @@ h3{
   margin-top: 5%;
   margin-bottom: 5%;
   padding: 60px 30px;
-	outline: 2px dashed pink;
   width: 816px;
   height: 1056px;
   font-size: 11px;
@@ -225,21 +217,18 @@ h3{
 	float: left;
 	width: 90%;
 	margin: 5% 5% 0 5%;
-	outline: 2px dashed #0053ae;
-	 }
+}
    
 #column1-fluid {
   clear: both;
 	float: left;
 	width: 43%;
 	margin: 0 2% 5% 5%;
-	outline: 2px dashed #0053ae;
-	 }
+}
 #column2-fluid {
 	float: left;
 	width: 43%;
 	margin: 0 5% 5% 2%;
-	outline: 2px dashed #dd0009;
 }
 
 table{
