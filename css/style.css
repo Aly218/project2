@@ -58,6 +58,7 @@ h3{
   background-color: #9DC88D;
 }
 
+
 /*CSS for page 1*/
 #wrapper-page1 {
   background-color: #CCC;
@@ -65,12 +66,11 @@ h3{
 	margin: 0 auto;
 }
 
-#main-page1 {
+#container-1 {
 	float: left;
-	width: 100%;
+	width: 960px;
   height: 200px;
-	margin-left: auto;
-  margin-right: auto;
+  margin: 0;
   margin-top: 5%;
 	outline: 2px dashed pink;
   background-image: url('../images/background.png');
@@ -84,11 +84,11 @@ h3{
   font-size: 50px;
 }
 
-#image-container {
+#container-2 {
   background-color: #FAF9F6;
 	float: left;
-	width: 50%;
-	margin: 5% 3% 0 5%;
+	width: 480px;
+	margin: 48px 28.8px 0 48px;
 	outline: 2px dashed pink;
 }
 
@@ -124,8 +124,8 @@ h3{
 #container-3{
   background-color: #FAF9F6;
 	float: left;
-	width: 30%;
-  margin: 5% 5% 5% 3%;
+	width: 288px;
+  margin: 48px 48px 48px 28.8px;
   padding: 2%;
 	outline: 2px dashed pink;
 }
@@ -133,8 +133,8 @@ h3{
 #container-4{
   background-color: #FAF9F6;
 	float: left;
-	width: 86%;
-  margin: 5%;
+	width: 825.6px;
+  margin: 48px;
   padding: 2%;
 	outline: 2px dashed pink;
 }
@@ -142,8 +142,8 @@ h3{
 #container-5{
   background-color: #FAF9F6;
 	float: left;
-	width: 38%;
-  margin: 0 3% 0 5%;
+	width: 364.8px;
+  margin: 0 28.8px 0 48px;
   padding: 2%;
 	outline: 2px dashed pink;
 }
@@ -151,24 +151,29 @@ h3{
 #container-6{
   background-color: #FAF9F6;
 	float: left;
-	width: 38%;
-  margin: 0 5% 0 3%;
+	width: 364.8px;
+  margin: 0 48px 0 28.8px;
   padding: 2%;
 	outline: 2px dashed pink;
 }
 
-#container-7{
-  background-color: #FAF9F6;
+.video{
+  margin: 48px;  
+}
+
+#main {
 	float: left;
-	width: 86%;
-  margin: 5%;
-  padding: 2%;
-	outline: 2px dashed pink;
+	width: 520px;
+	margin: 0;
+	margin-left: 220px;
+	margin-right: 20px;
+	outline: 2px dashed #0053ae;
+	display: inline;
 }
-
 
 /*CSS for page 2*/
 #wrapper-page2 {
+  background-color: #CCC;
 	width: 960px;
 	margin: 0 auto;
 }
