@@ -64,18 +64,37 @@ h3{
 	margin: 0 auto;
 }
 
-#main {
-  background-color: #FAF9F6;
+#main-page1 {
 	float: left;
 	width: 100%;
+  height: 200px;
 	margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
   margin-bottom: 5%;
-  padding: 15px;
 	outline: 2px dashed pink;
+  background-image: url('../images/background.png');
 }
 
+#center-h1{
+  padding-top: 4%;
+  text-align: center;
+  font-family: 'Roboto';
+  color: white;
+  font-size: 50px;
+}
+
+#image-container {
+  background-color: #FAF9F6;
+	float: left;
+	width: 50%;
+	margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+	outline: 2px dashed pink;
+  background-image: url('../images/background.png');
+}
 
 /*CSS for page 2*/
 #main-page2 {
