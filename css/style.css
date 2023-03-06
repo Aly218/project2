@@ -7,12 +7,12 @@ h1, h2, h3, p{
   font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
-  font-size: 18px;
-}
-
 h3{
   margin: 10px 0;
+}
+
+strong{
+  font-weight: 900;
 }
 
 
@@ -75,7 +75,7 @@ h3{
   background-image: url('../images/background.png');
 }
 
-#center-h1{
+#page1-h1{
   padding-top: 4%;
   text-align: center;
   font-family: 'Roboto';
@@ -147,12 +147,15 @@ h3{
   background-color: #FAF9F6;
 	float: left;
 	width: 364.8px;
-  margin: 0 48px 0 28.8px;
+  margin: 0 48px 48px 28.8px;
   padding: 2%;
 }
 
 .video{
-  margin: 48px;  
+  margin: 48px;
+  border: 3px solid black;
+  border-radius: 8px;
+  
 }
 
 #main {
@@ -170,7 +173,23 @@ h3{
 	margin: 0 auto;
 }
 
+#page2-h1{
+  float: left;
+  padding: 2px;
+  width: 500px;
+  margin: 92px 2px 42px 40px;
+  font-family: 'Roboto';
+  font-size: 50px;
+}
+
+#profile-picture{
+  float: left;
+  width: 6em;
+  margin: 72px 42px 42px 2px;
+}
+
 #main-page2 {
+  clear: both;
   background-color: #FAF9F6;
 	width: 100%;
 	margin-left: auto;
@@ -182,12 +201,6 @@ h3{
   height: 1056px;
   font-size: 11px;
   line-height: 1;
-}
-
-#profile-picture{
-  width: 10em;
-  margin-top: 5%;
-  margin-left: 42px;
 }
 
 .centered{
@@ -213,10 +226,23 @@ h3{
 
    
 /*Fluid page layout for page 3 and other CSS*/
+#page3-h1{
+  float: left;
+  padding: 2px;
+  width: 375px;
+  font-family: 'Roboto';
+  font-size: 50px;
+}
+
+#pg3{
+  float: left;
+  width: 15em;
+}
+
 #main-fluid {
 	float: left;
 	width: 90%;
-	margin: 5% 5% 0 5%;
+	margin: 5% 5% 5% 5%;
 }
    
 #column1-fluid {
