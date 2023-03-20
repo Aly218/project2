@@ -5,6 +5,7 @@ body {
 
 h1, h2, h3, p{
   font-family: Arial, Helvetica, sans-serif;
+  #line-height: 1.5;
 }
 
 h3{
@@ -49,6 +50,11 @@ strong{
   color: #fff;
   text-decoration: none;
 }
+
+li{
+  line-height: 1.5;
+}
+
 #main-navbar ul li a:hover {
   text-decoration: underline;
   text-decoration-color: #9DC88D;
@@ -64,6 +70,19 @@ strong{
   background-color: #CCC;
 	width: 960px;
 	margin: 0 auto;
+}
+
+#main {
+	float: left;
+	width: 520px;
+	margin: 0;
+	margin-left: 220px;
+	margin-right: 20px;
+	display: inline;
+}
+
+#main h1, h2, p{
+  line-height: 1.5;
 }
 
 #container-1 {
@@ -158,19 +177,25 @@ strong{
   
 }
 
-#main {
-	float: left;
-	width: 520px;
-	margin: 0;
-	margin-left: 220px;
-	margin-right: 20px;
-	display: inline;
-}
-
 /*CSS for page 2*/
 #wrapper-page2 {
 	width: 960px;
 	margin: 0 auto;
+}
+
+#main-page2 {
+  clear: both;
+  background-color: #FAF9F6;
+	width: 100%;
+	margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 20px 30px 20px 30px;
+  width: 816px;
+  height: 1125px;
+  font-size: 11px;
+  line-height: 1;
 }
 
 #page2-h1{
@@ -186,21 +211,6 @@ strong{
   float: left;
   width: 6em;
   margin: 72px 42px 42px 2px;
-}
-
-#main-page2 {
-  clear: both;
-  background-color: #FAF9F6;
-	width: 100%;
-	margin-left: auto;
-  margin-right: auto;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  padding: 60px 30px;
-  width: 816px;
-  height: 1056px;
-  font-size: 11px;
-  line-height: 1;
 }
 
 .centered{
