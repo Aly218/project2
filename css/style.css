@@ -238,10 +238,15 @@ li{
 /*Fluid page layout for page 3 and other CSS*/
 #page3-h1{
   float: left;
-  padding: 2px;
+  padding: 0 0 0 15px;
   width: 375px;
   font-family: 'Roboto';
   font-size: 50px;
+}
+
+h2{
+  float: left;
+  padding: 0 0 0 15px;
 }
 
 #pg3{
