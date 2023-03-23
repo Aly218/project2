@@ -16,7 +16,6 @@ strong{
   font-weight: 900;
 }
 
-
 /*navigation bar for all three pages*/
 #main-navbar {
   font-family: 'Lilita One', cursive;
@@ -234,7 +233,7 @@ li{
   clear: both;
 }
 
-   
+
 /*Fluid page layout for page 3 and other CSS*/
 #page3-h1{
   float: left;
@@ -315,3 +314,5 @@ footer{
   text-align: center;
   color: #fff;
 }
+
+
